@@ -4,11 +4,11 @@ int cbinsearch(int *arr, int size, int value) {
 int value;
 int cnt = 0;
 int left = 0, right = size, mid, BS;
-while (left <= right){
+while (left <= right) {
 mid = left + (right - left) / 2;
 if (key < arr[mid]) {
 right = mid - 1;
-}else if (key > arr[mid]) {
+} else if (key > arr[mid]) {
 left = mid + 1;
 } else {
 BS = mid;
