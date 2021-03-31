@@ -26,6 +26,6 @@ cnt++;
 }
 if (cnt > 0) {
 return cnt;
-} esle {
+} else {
 return 0;
 }
