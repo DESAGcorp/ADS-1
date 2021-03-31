@@ -14,14 +14,18 @@ BS = mid;
 right = left - 1;
 }
 }
+if (BS >= 0) {
 for (int i = BS; i >= 0; i--) {
 if (arr[i] == value) {
 cnt++;
 }
 }
+}
+if (BS < size) {
 for (int i = BS + 1; i < size; i++) {
 if (arr[i] == value) {
 cnt++;
+}
 }
 }
 if (cnt > 0) {
