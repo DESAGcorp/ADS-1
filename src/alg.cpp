@@ -12,6 +12,8 @@ left = mid;
 } else if (value == arr[mid]) {
 BS = mid;
 right = left - 1;
+} else {
+return 0; 
 }
 }
 if (BS >= 0) {
@@ -28,9 +30,5 @@ cnt++;
 }
 }
 }
-if (cnt > 0) {
 return cnt;
-} else {
-return 0;
-}
 }
