@@ -11,7 +11,7 @@ right = mid - 1;
 left = mid + 1;
 } else if (value == arr[mid]) {
 BS = mid;
-right = left - 1;
+break;
 } else {
 return 0;
 }
